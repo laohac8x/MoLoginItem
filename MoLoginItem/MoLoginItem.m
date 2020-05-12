@@ -9,6 +9,7 @@ BOOL MOIsLoginItemEnabled()
 {
     BOOL isEnabled = NO;
     NSString *appPath = [[NSBundle mainBundle] bundlePath];
+    
     LSSharedFileListRef loginItemsRef = LSSharedFileListCreate(NULL, kLSSharedFileListSessionLoginItems, NULL);
 
     if (loginItemsRef) {

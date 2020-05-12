@@ -27,8 +27,8 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Dat Ng' => 'laohac83x@gmail.com' }
 s.source           = { :git => 'https://github.com/laohac8x/MoLoginItem.git', :tag => s.version.to_s }
 
-s.ios.deployment_target = '9.0'
-s.swift_version = '5.0'
+s.osx.deployment_target  = '10.10'
+# s.swift_version = '5.0'
 s.source_files = 'MoLoginItem/*.{h,m}'
 
 # s.dependency 'SwiftyJSON', '~> 5'
